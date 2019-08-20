@@ -1,0 +1,38 @@
+h1 {
+  background-color: rgb(59, 58, 58);
+  color: beige;
+  size: 3em;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+#nav {
+  display: flex;
+  background-color: rgb(145, 245, 211);
+}
+#nav li {
+  padding: 1.1em;
+}
+.subMenu li {
+  /* width: 80%; */
+  border: 1px solid gray;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.subMenu {
+  list-style: none;
+  background-color: yellowgreen;
+  visibility: hidden;
+  border: 1px solid gray;
+}
+
+.show {
+  visibility: visible;
+}
+
+span:hover {
+  cursor: pointer;
+}
